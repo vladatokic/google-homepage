@@ -12,6 +12,7 @@ body {
     margin: 0 auto;
     max-width: 100%;
   }
+
   .navHeader ul li {
     display: inline-block;
     font-size: 0.85rem;
@@ -43,7 +44,6 @@ body {
   a:hover {
     text-decoration: underline;
   }
-
 
   input {
     text-indent: 3rem;
@@ -177,5 +177,43 @@ body {
   #country {
     margin-left: 2rem;
   }
+
+
+  @media (max-width: 1120px) {
+    .flexLeft {
+      width: 50%;
+    }
+    .flexRight {
+      left: 0;
+      width: 44%;
+    }
+  }
+  
+  @media (max-width: 744px) {
+    .flexLeft,
+    .flexRight {
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 843px) {
+    input {
+      width: 76vw;
+    }
+  
+    .searchBox {
+      width: 100%;
+    }
+  
+    .mic {
+      left: 83vw;
+    }
+  
+    .searchbar .i {
+      margin-left: 14%;
+    }
+  }
+  
 
   
