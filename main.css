@@ -89,6 +89,7 @@ body {
     display: flex;
     justify-content: center;
   }
+
   .links {
     height: 2rem;
     border: none;
@@ -107,4 +108,74 @@ body {
   .links:hover {
     border: 1px solid lightgray;
   }
+
+  .flexLeft {
+    width: 33vw;
+    display: inline-block;
+  }
+  
+  .flexRight {
+    width: 24vw;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid gray;
+  }
+  
+  .flexLeft ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    justify-content: space-around;
+  }
+  
+  .flexLeft a {
+    text-decoration: none;
+    font-size: 0.97rem;
+    color: gray;
+  }
+  
+  .flexLeft a:hover {
+    text-decoration: underline;
+  }
+  
+  .flexRight ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 1rem;
+  }
+  
+  .flexRight a {
+    text-decoration: none;
+    font-size: 0.97rem;
+    color: gray;
+  }
+  
+  .flexRight a:hover {
+    text-decoration: underline;
+  }
+  
+  .Country {
+    color: grey;
+    font-weight: 100;
+    font-size: 0.97rem;
+    position: absolute;
+    top: 84vh;
+    background-color: #f5f5f0;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  #country {
+    margin-left: 2rem;
+  }
+
   
