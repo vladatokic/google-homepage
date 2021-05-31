@@ -7,3 +7,39 @@ body {
     box-sizing: border-box;
   }
   
+  .logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .navHeader ul li {
+    display: inline-block;
+    font-size: 0.85rem;
+  }
+  
+  .navHeader a {
+    color: #3d3d5c;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0.4rem;
+  }
+  
+  nav {
+    text-align: right;
+    margin-right: 1rem;
+  }
+  
+  button#signIn {
+    font-size: 1rem;
+    background-color: blue;
+    padding: 0.4rem;
+    width: 95px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
