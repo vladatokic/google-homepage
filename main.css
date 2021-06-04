@@ -74,7 +74,7 @@ body {
   .searchbar .i {
     position: absolute;
     margin-top: 0.9rem;
-    margin-left: 2rem;
+    margin-left: 3%;
     width: 1.5rem;
   }
   
@@ -212,6 +212,19 @@ body {
   
     .searchbar .i {
       margin-left: 14%;
+    }
+      
+          .flexLeft ul a,.flexRight ul a {
+        font-size: 0.73rem;
+
+    }
+
+  footer {
+    background-color: #f5f5f0;s
+  }
+
+    .Country {
+        display: none;
     }
   }
   
