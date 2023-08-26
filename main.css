@@ -227,6 +227,12 @@ body {
     .Country {
         display: none;
     }
+
+       body {
+          
+          overflow: auto;
+   }
+      
   }
   
 
