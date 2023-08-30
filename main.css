@@ -229,8 +229,7 @@ body {
     }
 
        body {
-          background-color: red;
-          overflow: auto;
+       overflow: scroll;
    }
       
   }
